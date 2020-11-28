@@ -1,4 +1,4 @@
-16949083771358668
+16950690345873648
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74920,6 +74920,13 @@ LED RGB NeoPixel
 0
 4
 4
+decoup cap
+CAPC2012X70
+<b>CAPACITOR</b><p>
+
+0
+2
+2
 keyboard_parts
 4P4C
 http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf

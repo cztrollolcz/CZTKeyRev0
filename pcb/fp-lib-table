@@ -5,4 +5,5 @@
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name SSD1306)(type KiCad)(uri ${KIPRJMOD}/KiCad-SSD1306-128x64/library/SSD1306.pretty)(options "")(descr ""))
   (lib (name WS2812B-edited)(type KiCad)(uri ${KIPRJMOD}/WS2812B-edited)(options "")(descr ""))
+  (lib (name "decoup cap")(type KiCad)(uri "${KIPRJMOD}/decoup cap")(options "")(descr ""))
 )

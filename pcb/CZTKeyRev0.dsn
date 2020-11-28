@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  341312 -25019  341312 -198438  13493.8 -200025  -12500 -200000
-            -12500 -25000  339750 -25000  341312 -25019)
+      (path pcb 0  335025 -196025  -8025 -196025  -8025 -36975  335025 -36975
+            335025 -196025)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -33,101 +33,166 @@
     )
   )
   (placement
+    (component MountingHole:MountingHole_2.2mm_M2_Pad
+      (place MT_PLATE_CT 165894 -40481.2 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PLATE_LD -3968.75 -66675 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PLATE_RD 330994 -66675 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_RT 311150 -96837.5 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_CT 165894 -91281.2 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_RD 311150 -180975 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_LD 13493.8 -180975 front 0 (PN MountingHole_2.2mm_M2_Pad))
+    )
+    (component MountingHole:MountingHole_2.2mm_M2_Pad::1
+      (place MT_PLATE_LT -3968.75 -40481.2 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PLATE_CD 165894 -66675 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PLATE_RT 330994 -40481.2 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_LT 15081.2 -96837.5 front 0 (PN MountingHole_2.2mm_M2_Pad))
+      (place MT_PCB_CD 165894 -180975 front 0 (PN MountingHole_2.2mm_M2_Pad))
+    )
+    (component "decoup cap:CAPC2012X70"
+      (place C47 328930 -179451 front 90 (PN 100n))
+      (place C46 10033 -174879 front 90 (PN 100n))
+      (place C45 290703 -180086 front 90 (PN 100n))
+      (place C44 228981 -175006 front 90 (PN 100n))
+      (place C43 125603 -182118 front 90 (PN 100n))
+      (place C42 59944 -175133 front 90 (PN 100n))
+      (place C41 9906 -156149 front 90 (PN 100n))
+      (place C40 310007 -160782 front 90 (PN 100n))
+      (place C39 274447 -154940 front 90 (PN 100n))
+      (place C38 228727 -155067 front 90 (PN 100n))
+      (place C37 190627 -155575 front 90 (PN 100n))
+      (place C36 152781 -154813 front 90 (PN 100n))
+      (place C35 95504 -155956 front 90 (PN 100n))
+      (place C34 45720 -156718 front 90 (PN 100n))
+      (place C33 9906 -136906 front 90 (PN 100n))
+      (place C32 333629 -135448 front 90 (PN 100n))
+      (place C31 257683 -136017 front 90 (PN 100n))
+      (place C30 219456 -135763 front 90 (PN 100n))
+      (place C29 181229 -136906 front 90 (PN 100n))
+      (place C28 143256 -136398 front 90 (PN 100n))
+      (place C27 105156 -136652 front 90 (PN 100n))
+      (place C26 66929 -136652 front 90 (PN 100n))
+      (place C25 9906 -116586 front 90 (PN 100n))
+      (place C24 295656 -117983 front 90 (PN 100n))
+      (place C23 252857 -116713 front 90 (PN 100n))
+      (place C22 195580 -117729 front 90 (PN 100n))
+      (place C21 176530 -116586 front 90 (PN 100n))
+      (place C20 138430 -117602 front 90 (PN 100n))
+      (place C19 100330 -117094 front 90 (PN 100n))
+      (place C18 62230 -116840 front 90 (PN 100n))
+      (place C17 9779 -97790 front 90 (PN 100n))
+      (place C16 290830 -99822 front 90 (PN 100n))
+      (place C15 243205 -97790 front 90 (PN 100n))
+      (place C14 205105 -98933 front 90 (PN 100n))
+      (place C13 167005 -97536 front 90 (PN 100n))
+      (place C12 128905 -98171 front 90 (PN 100n))
+      (place C11 90805 -97663 front 90 (PN 100n))
+      (place C10 52705 -97790 front 90 (PN 100n))
+      (place C9 33655 -75057 front 90 (PN 100n))
+      (place C8 276479 -75057 front 90 (PN 100n))
+      (place C7 238379 -74803 front 90 (PN 100n))
+      (place C6 195580 -73914 front 90 (PN 100n))
+      (place C5 157480 -74295 front 90 (PN 100n))
+      (place C4 114554 -74168 front 90 (PN 100n))
+      (place C3 76454 -74803 front 90 (PN 100n))
+    )
     (component "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp"
-      (place D13 167481 -36512.5 front 270 (PN D_Small))
-      (place D86 65881.2 -46037.5 front 270 (PN D_Small))
-      (place D85 62706.2 -46037.5 front 270 (PN D_Small))
-      (place D84 59531.2 -46037.5 front 270 (PN D_Small))
-      (place D83 56356.2 -46037.5 front 270 (PN D_Small))
-      (place D82 53181.2 -46037.5 front 270 (PN D_Small))
-      (place D73 197644 -46037.5 front 270 (PN D_Small))
-      (place D81 180181 -46037.5 front 270 (PN D_Small))
-      (place D80 180181 -36512.5 front 270 (PN D_Small))
-      (place D79 162719 -46037.5 front 270 (PN D_Small))
-      (place D78 162719 -36512.5 front 270 (PN D_Small))
-      (place D77 124619 -46037.5 front 270 (PN D_Small))
-      (place D76 124619 -36512.5 front 270 (PN D_Small))
-      (place D75 86518.8 -46037.5 front 270 (PN D_Small))
-      (place D74 86518.8 -36512.5 front 270 (PN D_Small))
-      (place D72 177006 -46037.5 front 270 (PN D_Small))
-      (place D71 194469 -46037.5 front 270 (PN D_Small))
-      (place D70 159544 -46037.5 front 270 (PN D_Small))
-      (place D69 159544 -36512.5 front 270 (PN D_Small))
-      (place D68 121444 -46037.5 front 270 (PN D_Small))
-      (place D67 197644 -36512.5 front 270 (PN D_Small))
-      (place D66 142081 -46037.5 front 270 (PN D_Small))
-      (place D65 142081 -36512.5 front 270 (PN D_Small))
-      (place D64 121444 -36512.5 front 270 (PN D_Small))
-      (place D63 103981 -46037.5 front 270 (PN D_Small))
-      (place D62 103981 -36512.5 front 270 (PN D_Small))
-      (place D61 83343.8 -46037.5 front 270 (PN D_Small))
-      (place D60 83343.8 -36512.5 front 270 (PN D_Small))
-      (place D59 65881.2 -36512.5 front 270 (PN D_Small))
-      (place D58 173831 -46037.5 front 270 (PN D_Small))
-      (place D57 177006 -36512.5 front 270 (PN D_Small))
-      (place D56 156369 -46037.5 front 270 (PN D_Small))
-      (place D55 156369 -36512.5 front 270 (PN D_Small))
-      (place D54 118269 -46037.5 front 270 (PN D_Small))
-      (place D53 194469 -36512.5 front 270 (PN D_Small))
-      (place D52 138906 -46037.5 front 270 (PN D_Small))
-      (place D51 138906 -36512.5 front 270 (PN D_Small))
-      (place D50 118269 -36512.5 front 270 (PN D_Small))
-      (place D49 100806 -46037.5 front 270 (PN D_Small))
-      (place D48 100806 -36512.5 front 270 (PN D_Small))
-      (place D47 80168.8 -46037.5 front 270 (PN D_Small))
-      (place D46 80168.8 -36512.5 front 270 (PN D_Small))
-      (place D45 62706.2 -36500 front 270 (PN D_Small))
-      (place D44 170656 -46037.5 front 270 (PN D_Small))
-      (place D43 191294 -46037.5 front 270 (PN D_Small))
-      (place D42 173831 -36512.5 front 270 (PN D_Small))
-      (place D41 153194 -46037.5 front 270 (PN D_Small))
-      (place D40 153194 -36512.5 front 270 (PN D_Small))
-      (place D39 115094 -46037.5 front 270 (PN D_Small))
-      (place D38 191294 -36512.5 front 270 (PN D_Small))
-      (place D37 135731 -46037.5 front 270 (PN D_Small))
-      (place D36 135731 -36512.5 front 270 (PN D_Small))
-      (place D35 115094 -36512.5 front 270 (PN D_Small))
-      (place D34 97631.2 -46037.5 front 270 (PN D_Small))
-      (place D33 97631.2 -36512.5 front 270 (PN D_Small))
-      (place D32 76993.8 -46037.5 front 270 (PN D_Small))
-      (place D31 76993.8 -36512.5 front 270 (PN D_Small))
-      (place D30 59531.2 -36512.5 front 270 (PN D_Small))
-      (place D29 167481 -46037.5 front 270 (PN D_Small))
-      (place D28 188119 -46037.5 front 270 (PN D_Small))
-      (place D27 170656 -36512.5 front 270 (PN D_Small))
-      (place D26 150019 -46037.5 front 270 (PN D_Small))
-      (place D25 150019 -36512.5 front 270 (PN D_Small))
-      (place D24 111919 -46037.5 front 270 (PN D_Small))
-      (place D23 188119 -36512.5 front 270 (PN D_Small))
-      (place D22 132556 -46037.5 front 270 (PN D_Small))
-      (place D21 132556 -36512.5 front 270 (PN D_Small))
-      (place D20 111919 -36512.5 front 270 (PN D_Small))
-      (place D19 94456.2 -46037.5 front 270 (PN D_Small))
-      (place D18 94456.2 -36512.5 front 270 (PN D_Small))
-      (place D17 73818.8 -46037.5 front 270 (PN D_Small))
-      (place D16 73818.8 -36512.5 front 270 (PN D_Small))
-      (place D15 56356.2 -36512.5 front 270 (PN D_Small))
-      (place D14 184944 -46037.5 front 270 (PN D_Small))
-      (place D12 146844 -46037.5 front 270 (PN D_Small))
-      (place D11 146844 -36512.5 front 270 (PN D_Small))
-      (place D10 108744 -46037.5 front 270 (PN D_Small))
-      (place D9 184944 -36512.5 front 270 (PN D_Small))
-      (place D8 129381 -46037.5 front 270 (PN D_Small))
-      (place D7 129381 -36512.5 front 270 (PN D_Small))
-      (place D6 108744 -36512.5 front 270 (PN D_Small))
-      (place D5 91281.2 -46037.5 front 270 (PN D_Small))
-      (place D4 91281.2 -36512.5 front 270 (PN D_Small))
-      (place D3 70643.8 -46037.5 front 270 (PN D_Small))
-      (place D2 70643.8 -36512.5 front 270 (PN D_Small))
-      (place D1 53181.2 -36512.5 front 270 (PN D_Small))
+      (place D87 233362 -50800 front 270 (PN D_Small))
+      (place D13 191294 -46037.5 front 270 (PN D_Small))
+      (place D86 65881.2 -55562.5 front 270 (PN D_Small))
+      (place D85 62706.2 -55562.5 front 270 (PN D_Small))
+      (place D84 59531.2 -55562.5 front 270 (PN D_Small))
+      (place D83 56356.2 -55562.5 front 270 (PN D_Small))
+      (place D82 53181.2 -55562.5 front 270 (PN D_Small))
+      (place D73 225425 -55562.5 front 270 (PN D_Small))
+      (place D81 203994 -55562.5 front 270 (PN D_Small))
+      (place D80 203994 -46037.5 front 270 (PN D_Small))
+      (place D79 182563 -55562.5 front 270 (PN D_Small))
+      (place D78 182563 -46037.5 front 270 (PN D_Small))
+      (place D77 136525 -55562.5 front 270 (PN D_Small))
+      (place D76 136525 -46037.5 front 270 (PN D_Small))
+      (place D75 90487.6 -55562.5 front 270 (PN D_Small))
+      (place D74 90487.6 -46037.5 front 270 (PN D_Small))
+      (place D72 200818 -55562.5 front 270 (PN D_Small))
+      (place D71 222250 -55562.5 front 270 (PN D_Small))
+      (place D70 179388 -55562.5 front 270 (PN D_Small))
+      (place D69 179388 -46037.5 front 270 (PN D_Small))
+      (place D68 133350 -55562.5 front 270 (PN D_Small))
+      (place D67 225425 -46037.5 front 270 (PN D_Small))
+      (place D66 157956 -55562.5 front 270 (PN D_Small))
+      (place D65 157956 -46037.5 front 270 (PN D_Small))
+      (place D64 133350 -46037.5 front 270 (PN D_Small))
+      (place D63 111918 -55562.5 front 270 (PN D_Small))
+      (place D62 111918 -46037.5 front 270 (PN D_Small))
+      (place D61 87312.6 -55562.5 front 270 (PN D_Small))
+      (place D60 87312.6 -46037.5 front 270 (PN D_Small))
+      (place D59 65881.2 -46037.5 front 270 (PN D_Small))
+      (place D58 197644 -55562.5 front 270 (PN D_Small))
+      (place D57 200818 -46037.5 front 270 (PN D_Small))
+      (place D56 176213 -55562.5 front 270 (PN D_Small))
+      (place D55 176213 -46037.5 front 270 (PN D_Small))
+      (place D54 130175 -55562.5 front 270 (PN D_Small))
+      (place D53 222250 -46037.5 front 270 (PN D_Small))
+      (place D52 154781 -55562.5 front 270 (PN D_Small))
+      (place D51 154781 -46037.5 front 270 (PN D_Small))
+      (place D50 130175 -46037.5 front 270 (PN D_Small))
+      (place D49 108744 -55562.5 front 270 (PN D_Small))
+      (place D48 108744 -46037.5 front 270 (PN D_Small))
+      (place D47 84137.6 -55562.5 front 270 (PN D_Small))
+      (place D46 84137.6 -46037.5 front 270 (PN D_Small))
+      (place D45 62706.2 -46025 front 270 (PN D_Small))
+      (place D44 194468 -55562.5 front 270 (PN D_Small))
+      (place D43 219075 -55562.5 front 270 (PN D_Small))
+      (place D42 197644 -46037.5 front 270 (PN D_Small))
+      (place D41 173038 -55562.5 front 270 (PN D_Small))
+      (place D40 173038 -46037.5 front 270 (PN D_Small))
+      (place D39 127000 -55562.5 front 270 (PN D_Small))
+      (place D38 219075 -46037.5 front 270 (PN D_Small))
+      (place D37 151606 -55562.5 front 270 (PN D_Small))
+      (place D36 151606 -46037.5 front 270 (PN D_Small))
+      (place D35 127000 -46037.5 front 270 (PN D_Small))
+      (place D34 105569 -55562.5 front 270 (PN D_Small))
+      (place D33 105569 -46037.5 front 270 (PN D_Small))
+      (place D32 80962.6 -55562.5 front 270 (PN D_Small))
+      (place D31 80962.6 -46037.5 front 270 (PN D_Small))
+      (place D30 59531.2 -46037.5 front 270 (PN D_Small))
+      (place D29 191294 -55562.5 front 270 (PN D_Small))
+      (place D28 215900 -55562.5 front 270 (PN D_Small))
+      (place D27 194468 -46037.5 front 270 (PN D_Small))
+      (place D26 169863 -55562.5 front 270 (PN D_Small))
+      (place D25 169863 -46037.5 front 270 (PN D_Small))
+      (place D24 123825 -55562.5 front 270 (PN D_Small))
+      (place D23 215900 -46037.5 front 270 (PN D_Small))
+      (place D22 148431 -55562.5 front 270 (PN D_Small))
+      (place D21 148431 -46037.5 front 270 (PN D_Small))
+      (place D20 123825 -46037.5 front 270 (PN D_Small))
+      (place D19 102394 -55562.5 front 270 (PN D_Small))
+      (place D18 102394 -46037.5 front 270 (PN D_Small))
+      (place D17 77787.6 -55562.5 front 270 (PN D_Small))
+      (place D16 77787.6 -46037.5 front 270 (PN D_Small))
+      (place D15 56356.2 -46037.5 front 270 (PN D_Small))
+      (place D14 212725 -55562.5 front 270 (PN D_Small))
+      (place D12 166688 -55562.5 front 270 (PN D_Small))
+      (place D11 166688 -46037.5 front 270 (PN D_Small))
+      (place D10 120650 -55562.5 front 270 (PN D_Small))
+      (place D9 212725 -46037.5 front 270 (PN D_Small))
+      (place D8 145256 -55562.5 front 270 (PN D_Small))
+      (place D7 145256 -46037.5 front 270 (PN D_Small))
+      (place D6 120650 -46037.5 front 270 (PN D_Small))
+      (place D5 99218.7 -55562.5 front 270 (PN D_Small))
+      (place D4 99218.7 -46037.5 front 270 (PN D_Small))
+      (place D3 74612.6 -55562.5 front 270 (PN D_Small))
+      (place D2 74612.6 -46037.5 front 270 (PN D_Small))
+      (place D1 53181.2 -46037.5 front 270 (PN D_Small))
     )
     (component "WS2812B-edited:Neopixel_easy_LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-      (place WS86 320750 -178750 front 180 (PN WS2812B))
-      (place WS85 301750 -178750 front 180 (PN WS2812B))
-      (place WS84 282500 -178750 front 180 (PN WS2812B))
-      (place WS83 249250 -174000 front 180 (PN WS2812B))
-      (place WS82 220500 -174000 front 180 (PN WS2812B))
-      (place WS81 147000 -174000 front 180 (PN WS2812B))
+      (place WS87 320750 -178750 front 180 (PN WS2812B))
+      (place WS86 301750 -178750 front 180 (PN WS2812B))
+      (place WS85 282500 -178750 front 180 (PN WS2812B))
+      (place WS84 249250 -174000 front 180 (PN WS2812B))
+      (place WS83 220500 -174000 front 180 (PN WS2812B))
+      (place WS82 176212 -180975 front 180 (PN WS2812B))
+      (place WS81 119062 -180975 front 180 (PN WS2812B))
       (place WS80 75500 -174000 front 180 (PN WS2812B))
       (place WS79 51500 -174000 front 180 (PN WS2812B))
       (place WS78 27750 -174000 front 180 (PN WS2812B))
@@ -209,16 +274,11 @@
       (place WS2 49250 -74000 front 180 (PN WS2812B))
       (place WS1 25250 -74000 front 180 (PN WS2812B))
     )
-    (component Resistor_SMD:R_0603_1608Metric
-      (place R5 303720 -62039.5 front 90 (PN 10K))
-      (place C2 -10318.8 -76993.8 front 90 (PN 100n))
-      (place C1 12700 -76993.8 front 90 (PN 100n))
-    )
     (component Resistor_SMD:R_Array_Convex_4x0603
-      (place R4 11906.2 -82550 front 180 (PN 10K))
-      (place R3 -9525 -82550 front 180 (PN 10K))
-      (place R2 11906.2 -87312.5 front 180 (PN 10k))
-      (place R1 -9525 -87312.5 front 180 (PN 10k))
+      (place R4 14287.5 -82550 front 180 (PN 10K))
+      (place R3 10318.8 -82550 front 180 (PN 10K))
+      (place R2 14287.5 -87312.5 front 180 (PN 10k))
+      (place R1 10318.8 -87312.5 front 180 (PN 10k))
     )
     (component "MX_Alps_Hybrid:MX-1U-NoLED"
       (place MX_MAC5 1587.5 -180975 front 180 (PN "MX-NoLED"))
@@ -295,8 +355,12 @@
       (place MX_1 44450 -104775 front 180 (PN "MX-NoLED"))
       (place MX_0 215900 -104775 front 180 (PN "MX-NoLED"))
     )
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C2 10318.8 -76993.8 front 90 (PN 100n))
+      (place C1 14287.5 -76993.8 front 90 (PN 100n))
+    )
     (component SSD1306:128x64OLED
-      (place OLED1 29368.8 -46831.2 front 0 (PN SSD1306))
+      (place OLED1 29368.8 -53181.2 front 0 (PN SSD1306))
     )
     (component "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
       (place ENC1 -889 -88646 front 90 (PN Rotary_Encoder_Switch))
@@ -315,7 +379,7 @@
       (place MX_ENTER1 280194 -142875 front 180 (PN "MX-NoLED"))
     )
     (component proton_c:proton_c
-      (place U1 321469 -43656.2 front 270 (PN proton_c))
+      (place U1 315200 -53975 front 270 (PN proton_c))
     )
     (component "MX_Alps_Hybrid:MX-1.5U-NoLED"
       (place MX_TAB1 30162.5 -123825 front 180 (PN "MX-NoLED"))
@@ -331,6 +395,48 @@
     )
   )
   (library
+    (image MountingHole:MountingHole_2.2mm_M2_Pad
+      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
+            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
+            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
+            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
+            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
+            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
+            2373.03 609.29  2450 0))
+      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
+            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
+            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
+            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
+            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
+            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
+      (pin Round[A]Pad_4400_um 1 0 0)
+    )
+    (image MountingHole:MountingHole_2.2mm_M2_Pad::1
+      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
+            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
+            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
+            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
+            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
+            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
+      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
+            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
+            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
+            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
+            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
+            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
+            2373.03 609.29  2450 0))
+      (pin Round[A]Pad_4400_um 1 0 0)
+    )
+    (image "decoup cap:CAPC2012X70"
+      (outline (path signal 50.8  1873 983  1873 -983))
+      (outline (path signal 101.6  -356 -660  381 -660))
+      (outline (path signal 101.6  -381 660  381 660))
+      (outline (path signal 50.8  -1873 -983  -1873 983))
+      (outline (path signal 50.8  1873 -983  -1873 -983))
+      (outline (path signal 50.8  -1873 983  1873 983))
+      (pin Rect[T]Pad_1300x1500_um 2 950 0)
+      (pin Rect[T]Pad_1300x1500_um 1 -950 0)
+    )
     (image "Diode_THT:D_DO-35_SOD27_P5.08mm_Vertical_KathodeUp"
       (outline (path signal 50  6330 1250  -1050 1250))
       (outline (path signal 50  6330 -1250  6330 1250))
@@ -373,20 +479,6 @@
       (pin Rect[T]Pad_2500x2000_um 4 2900 2100)
       (pin Rect[T]Pad_2500x2000_um 2 -2900 -2100)
       (pin Rect[T]Pad_2500x2000_um 1 -2900 2100)
-    )
-    (image Resistor_SMD:R_0603_1608Metric
-      (outline (path signal 50  1480 -730  -1480 -730))
-      (outline (path signal 50  1480 730  1480 -730))
-      (outline (path signal 50  -1480 730  1480 730))
-      (outline (path signal 50  -1480 -730  -1480 730))
-      (outline (path signal 120  -162.779 -510  162.779 -510))
-      (outline (path signal 120  -162.779 510  162.779 510))
-      (outline (path signal 100  800 -400  -800 -400))
-      (outline (path signal 100  800 400  800 -400))
-      (outline (path signal 100  -800 400  800 400))
-      (outline (path signal 100  -800 -400  -800 400))
-      (pin RoundRect[T]Pad_875x950_219.582_um 2 787.5 0)
-      (pin RoundRect[T]Pad_875x950_219.582_um 1 -787.5 0)
     )
     (image Resistor_SMD:R_Array_Convex_4x0603
       (outline (path signal 50  1550 -1850  -1550 -1850))
@@ -431,6 +523,20 @@
       (keepout "" (circle B.Cu 1750 -5080 0))
       (keepout "" (circle F.Cu 3987.8))
       (keepout "" (circle B.Cu 3987.8))
+    )
+    (image Capacitor_SMD:C_0603_1608Metric
+      (outline (path signal 50  1480 -730  -1480 -730))
+      (outline (path signal 50  1480 730  1480 -730))
+      (outline (path signal 50  -1480 730  1480 730))
+      (outline (path signal 50  -1480 -730  -1480 730))
+      (outline (path signal 120  -162.779 -510  162.779 -510))
+      (outline (path signal 120  -162.779 510  162.779 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_875x950_219.582_um 2 787.5 0)
+      (pin RoundRect[T]Pad_875x950_219.582_um 1 -787.5 0)
     )
     (image SSD1306:128x64OLED
       (outline (path signal 120  -13400 12300  14000 12300))
@@ -785,6 +891,11 @@
       (shape (circle B.Cu 2250))
       (attach off)
     )
+    (padstack Round[A]Pad_4400_um
+      (shape (circle F.Cu 4400))
+      (shape (circle B.Cu 4400))
+      (attach off)
+    )
     (padstack Oval[A]Pad_2000x1600_um
       (shape (path F.Cu 1600  -200 0  200 0))
       (shape (path B.Cu 1600  -200 0  200 0))
@@ -839,6 +950,10 @@
     )
     (padstack Rect[T]Pad_800x500_um
       (shape (rect F.Cu -400 -250 400 250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300x1500_um
+      (shape (rect F.Cu -650 -750 650 750))
       (attach off)
     )
     (padstack Rect[A]Pad_1600x1600_um
@@ -1093,7 +1208,7 @@
       (pins D73-2 MX_CTRL_L1-2 MX_CTRL_L1-2@1)
     )
     (net ROW5
-      (pins D86-1 D73-1 U1-B5 D81-1 D80-1 D79-1 D78-1 D77-1 D76-1 D75-1 D74-1)
+      (pins D87-1 D86-1 D73-1 U1-B5 D81-1 D80-1 D79-1 D78-1 D77-1 D76-1 D75-1 D74-1)
     )
     (net "Net-(D74-Pad2)"
       (pins MX_WIN1-2 MX_WIN1-2@1 D74-2)
@@ -1136,8 +1251,8 @@
         MX_ALT_L1-1 MX_ALT_L1-1@1 MX_2-1 MX_2-1@1)
     )
     (net COL4
-      (pins U1-B13 MX_F3-1 MX_F3-1@1 MX_E1-1 MX_E1-1@1 MX_D1-1 MX_D1-1@1 MX_C1-1 MX_C1-1@1
-        MX_3-1 MX_3-1@1)
+      (pins ENC1-S1 U1-B13 MX_F3-1 MX_F3-1@1 MX_E1-1 MX_E1-1@1 MX_D1-1 MX_D1-1@1 MX_C1-1
+        MX_C1-1@1 MX_3-1 MX_3-1@1)
     )
     (net COL5
       (pins U1-B14 MX_V1-1 MX_V1-1@1 MX_R1-1 MX_R1-1@1 MX_F0-1 MX_F0-1@1 MX_F4-1 MX_F4-1@1
@@ -1184,14 +1299,18 @@
         MX_INSERT1-1 MX_INSERT1-1@1 MX_DELETE1-1 MX_DELETE1-1@1)
     )
     (net +5V
-      (pins WS86-1 WS85-1 WS84-1 WS83-1 WS82-1 WS81-1 WS80-1 WS79-1 WS78-1 WS77-1
-        WS76-1 WS75-1 WS74-1 WS73-1 WS72-1 WS71-1 WS70-1 WS69-1 WS68-1 WS67-1 WS66-1
-        WS65-1 WS64-1 WS63-1 WS62-1 WS61-1 WS60-1 WS59-1 WS58-1 WS57-1 WS56-1 WS55-1
-        WS54-1 WS53-1 WS52-1 WS51-1 WS50-1 WS49-1 WS48-1 WS47-1 WS46-1 WS45-1 WS44-1
-        WS43-1 WS42-1 WS41-1 WS40-1 WS39-1 WS38-1 WS37-1 WS36-1 WS35-1 WS34-1 WS33-1
-        WS32-1 WS31-1 WS30-1 WS29-1 WS28-1 WS27-1 WS26-1 WS25-1 WS24-1 WS23-1 WS22-1
-        WS21-1 WS20-1 WS19-1 WS18-1 WS17-1 WS16-1 WS15-1 WS14-1 WS13-1 WS12-1 WS11-1
-        WS10-1 WS9-1 WS8-1 WS7-1 WS6-1 WS5-1 WS4-1 WS3-1 WS2-1 WS1-1 ENC1-C U1-5V)
+      (pins C47-1 C46-1 C45-1 C44-1 C43-1 C42-1 C41-1 C40-1 C39-1 C38-1 C37-1 C36-1
+        C35-1 C34-1 C33-1 C32-1 C31-1 C30-1 C29-1 C28-1 C27-1 C26-1 C25-1 C24-1 C23-1
+        C22-1 C21-1 C20-1 C19-1 C18-1 C17-1 C16-1 C15-1 C14-1 C13-1 C12-1 C11-1 C10-1
+        C9-1 C8-1 C7-1 C6-1 C5-1 C4-1 C3-1 WS87-1 WS86-1 WS85-1 WS84-1 WS83-1 WS82-1
+        WS81-1 WS80-1 WS79-1 WS78-1 WS77-1 WS76-1 WS75-1 WS74-1 WS73-1 WS72-1 WS71-1
+        WS70-1 WS69-1 WS68-1 WS67-1 WS66-1 WS65-1 WS64-1 WS63-1 WS62-1 WS61-1 WS60-1
+        WS59-1 WS58-1 WS57-1 WS56-1 WS55-1 WS54-1 WS53-1 WS52-1 WS51-1 WS50-1 WS49-1
+        WS48-1 WS47-1 WS46-1 WS45-1 WS44-1 WS43-1 WS42-1 WS41-1 WS40-1 WS39-1 WS38-1
+        WS37-1 WS36-1 WS35-1 WS34-1 WS33-1 WS32-1 WS31-1 WS30-1 WS29-1 WS28-1 WS27-1
+        WS26-1 WS25-1 WS24-1 WS23-1 WS22-1 WS21-1 WS20-1 WS19-1 WS18-1 WS17-1 WS16-1
+        WS15-1 WS14-1 WS13-1 WS12-1 WS11-1 WS10-1 WS9-1 WS8-1 WS7-1 WS6-1 WS5-1 WS4-1
+        WS3-1 WS2-1 WS1-1 U1-5V)
     )
     (net "Net-(U1-PadA10)"
       (pins U1-A10)
@@ -1203,15 +1322,18 @@
       (pins U1-D+)
     )
     (net GND
-      (pins WS86-3 WS85-3 WS84-3 WS83-3 WS82-3 WS81-3 WS80-3 WS79-3 WS78-3 WS77-3
-        WS76-3 WS75-3 WS74-3 WS73-3 WS72-3 WS71-3 WS70-3 WS69-3 WS68-3 WS67-3 WS66-3
-        WS65-3 WS64-3 WS63-3 WS62-3 WS61-3 WS60-3 WS59-3 WS58-3 WS57-3 WS56-3 WS55-3
-        WS54-3 WS53-3 WS52-3 WS51-3 WS50-3 WS49-3 WS48-3 WS47-3 WS46-3 WS45-3 WS44-3
-        WS43-3 WS42-3 WS41-3 WS40-3 WS39-3 WS38-3 WS37-3 WS36-3 WS35-3 WS34-3 WS33-3
-        WS32-3 WS31-3 WS30-3 WS29-3 WS28-3 WS27-3 WS26-3 WS25-3 WS24-3 WS23-3 WS22-3
-        WS21-3 WS20-3 WS19-3 WS18-3 WS17-3 WS16-3 WS15-3 WS14-3 WS13-3 WS12-3 WS11-3
-        WS10-3 WS9-3 WS8-3 WS7-3 WS6-3 WS5-3 WS4-3 WS3-3 WS2-3 WS1-3 R5-1 C2-2 C1-2
-        OLED1-1 U1-GND U1-GND@1 U1-GND@2)
+      (pins C47-2 C46-2 C45-2 C44-2 C43-2 C42-2 C41-2 C40-2 C39-2 C38-2 C37-2 C36-2
+        C35-2 C34-2 C33-2 C32-2 C31-2 C30-2 C29-2 C28-2 C27-2 C26-2 C25-2 C24-2 C23-2
+        C22-2 C21-2 C20-2 C19-2 C18-2 C17-2 C16-2 C15-2 C14-2 C13-2 C12-2 C11-2 C10-2
+        C9-2 C8-2 C7-2 C6-2 C5-2 C4-2 C3-2 WS87-3 WS86-3 WS85-3 WS84-3 WS83-3 WS82-3
+        WS81-3 WS80-3 WS79-3 WS78-3 WS77-3 WS76-3 WS75-3 WS74-3 WS73-3 WS72-3 WS71-3
+        WS70-3 WS69-3 WS68-3 WS67-3 WS66-3 WS65-3 WS64-3 WS63-3 WS62-3 WS61-3 WS60-3
+        WS59-3 WS58-3 WS57-3 WS56-3 WS55-3 WS54-3 WS53-3 WS52-3 WS51-3 WS50-3 WS49-3
+        WS48-3 WS47-3 WS46-3 WS45-3 WS44-3 WS43-3 WS42-3 WS41-3 WS40-3 WS39-3 WS38-3
+        WS37-3 WS36-3 WS35-3 WS34-3 WS33-3 WS32-3 WS31-3 WS30-3 WS29-3 WS28-3 WS27-3
+        WS26-3 WS25-3 WS24-3 WS23-3 WS22-3 WS21-3 WS20-3 WS19-3 WS18-3 WS17-3 WS16-3
+        WS15-3 WS14-3 WS13-3 WS12-3 WS11-3 WS10-3 WS9-3 WS8-3 WS7-3 WS6-3 WS5-3 WS4-3
+        WS3-3 WS2-3 WS1-3 C2-2 C1-2 OLED1-1 ENC1-C U1-GND U1-GND@1 U1-GND@2)
     )
     (net "Net-(U1-PadD-)"
       (pins U1-"D-")
@@ -1226,7 +1348,7 @@
       (pins U1-A3/5v)
     )
     (net VCC
-      (pins R2-1 R1-1 OLED1-2 ENC1-S1 U1-3.3V)
+      (pins R2-1 R1-1 OLED1-2 U1-3.3V)
     )
     (net "Net-(U1-PadRST)"
       (pins U1-RST)
@@ -1259,7 +1381,7 @@
       (pins MX_MAC5-2 MX_MAC5-2@1 D86-2)
     )
     (net ENC_SW
-      (pins R5-2 ENC1-S2 U1-B10)
+      (pins U1-B10)
     )
     (net OLEDSCL
       (pins OLED1-3 U1-B6)
@@ -1495,11 +1617,8 @@
     (net "Net-(WS75-Pad2)"
       (pins WS76-4 WS75-2)
     )
-    (net "Net-(WS76-Pad2)"
-      (pins WS77-4 WS76-2)
-    )
     (net D_ROW6
-      (pins WS78-4 WS77-2)
+      (pins WS77-4 WS76-2)
     )
     (net "Net-(WS78-Pad2)"
       (pins WS79-4 WS78-2)
@@ -1526,11 +1645,20 @@
       (pins WS86-4 WS85-2)
     )
     (net "Net-(WS86-Pad2)"
-      (pins WS86-2)
+      (pins WS87-4 WS86-2)
+    )
+    (net ENC_S2
+      (pins D87-2 ENC1-S2)
+    )
+    (net "Net-(WS87-Pad2)"
+      (pins WS87-2)
+    )
+    (net "Net-(WS77-Pad2)"
+      (pins WS78-4 WS77-2)
     )
     (class kicad_default "" COL0 COL1 COL10 COL11 COL12 COL13 COL14 COL15
       COL2 COL3 COL4 COL5 COL6 COL7 COL8 COL9 D_ROW2 D_ROW3 D_ROW4 D_ROW5
-      D_ROW6 ENC_A ENC_B ENC_SW "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
+      D_ROW6 ENC_A ENC_B ENC_S2 ENC_SW "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
       "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)"
       "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)"
@@ -1569,11 +1697,11 @@
       "Net-(WS62-Pad2)" "Net-(WS63-Pad2)" "Net-(WS64-Pad2)" "Net-(WS65-Pad2)"
       "Net-(WS66-Pad2)" "Net-(WS67-Pad2)" "Net-(WS68-Pad2)" "Net-(WS69-Pad2)"
       "Net-(WS7-Pad2)" "Net-(WS70-Pad2)" "Net-(WS71-Pad2)" "Net-(WS72-Pad2)"
-      "Net-(WS73-Pad2)" "Net-(WS74-Pad2)" "Net-(WS75-Pad2)" "Net-(WS76-Pad2)"
+      "Net-(WS73-Pad2)" "Net-(WS74-Pad2)" "Net-(WS75-Pad2)" "Net-(WS77-Pad2)"
       "Net-(WS78-Pad2)" "Net-(WS79-Pad2)" "Net-(WS8-Pad2)" "Net-(WS80-Pad2)"
       "Net-(WS81-Pad2)" "Net-(WS82-Pad2)" "Net-(WS83-Pad2)" "Net-(WS84-Pad2)"
-      "Net-(WS85-Pad2)" "Net-(WS86-Pad2)" OLEDSCL OLEDSDA RGB_MATRIX ROW0
-      ROW1 ROW2 ROW3 ROW4 ROW5
+      "Net-(WS85-Pad2)" "Net-(WS86-Pad2)" "Net-(WS87-Pad2)" OLEDSCL OLEDSDA
+      RGB_MATRIX ROW0 ROW1 ROW2 ROW3 ROW4 ROW5
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
