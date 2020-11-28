@@ -5550,4 +5550,48 @@ Wire Wire Line
 	4500 1650 4950 1650
 Text GLabel 3250 2950 2    50   Input ~ 0
 ENC_SW
+Text GLabel 1200 2050 0    50   Input ~ 0
+ROW1
+Text GLabel 1200 2150 0    50   Input ~ 0
+ROW0
+Text GLabel 1200 1950 0    50   Input ~ 0
+ROW2
+Text GLabel 1200 1850 0    50   Input ~ 0
+ROW3
+Text GLabel 1200 1750 0    50   Input ~ 0
+ROW4
+Text GLabel 1200 1650 0    50   Input ~ 0
+ROW5
+Text GLabel 3250 1750 2    50   Input ~ 0
+COL3
+Text GLabel 3250 1650 2    50   Input ~ 0
+COL2
+Text GLabel 3250 1550 2    50   Input ~ 0
+COL1
+Text GLabel 3250 1450 2    50   Input ~ 0
+COL0
+Text GLabel 3250 1850 2    50   Input ~ 0
+COL4
+Text GLabel 3250 1950 2    50   Input ~ 0
+COL5
+Text GLabel 3250 2050 2    50   Input ~ 0
+COL6
+Text GLabel 3250 2150 2    50   Input ~ 0
+COL7
+Text GLabel 1200 2950 0    50   Input ~ 0
+COL8
+Text GLabel 1200 3050 0    50   Input ~ 0
+COL9
+Text GLabel 1200 3150 0    50   Input ~ 0
+COL10
+Text GLabel 1200 3250 0    50   Input ~ 0
+COL11
+Text GLabel 1200 3350 0    50   Input ~ 0
+COL12
+Text GLabel 1200 3450 0    50   Input ~ 0
+COL13
+Text GLabel 3250 3250 2    50   Input ~ 0
+COL14
+Text GLabel 3250 3350 2    50   Input ~ 0
+COL15
 $EndSCHEMATC
