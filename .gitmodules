@@ -13,6 +13,3 @@
 [submodule "pcb/KiCad-SSD1306-128x64"]
 	path = pcb/KiCad-SSD1306-128x64
 	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
-[submodule "pcb/kicad-SK6812MINI"]
-	path = pcb/kicad-SK6812MINI
-	url = https://github.com/yskoht/kicad-SK6812MINI
