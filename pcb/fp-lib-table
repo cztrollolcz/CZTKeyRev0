@@ -7,4 +7,5 @@
   (lib (name WS2812B-edited)(type KiCad)(uri ${KIPRJMOD}/WS2812B-edited)(options "")(descr ""))
   (lib (name "decoup cap")(type KiCad)(uri "${KIPRJMOD}/decoup cap")(options "")(descr ""))
   (lib (name "rgb led reverse mount")(type KiCad)(uri "${KIPRJMOD}/rgb led reverse mount")(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/SamacSys_Parts.pretty)(options "")(descr ""))
 )

@@ -2844,7 +2844,7 @@ Wire Wire Line
 Connection ~ 5450 8250
 Text GLabel 1450 7950 0    50   Input ~ 0
 RGB_MATRIX
-Text Notes 600  150  0    50   ~ 0
+Text Notes 550  -200 0    50   ~ 0
 R1-5 i C1/2 budou SMD, stejný jako v Hub16, použiju JLCPCB assembly -> R1-4 je C107374, R5 je C144116 a C1 a 2 je C1591
 Text GLabel 3500 8500 2    50   Input ~ 0
 ENC_A
@@ -2984,7 +2984,7 @@ Text GLabel 12400 8950 0    50   Input ~ 0
 ENC_S1
 Text GLabel 12200 9150 2    50   Input ~ 0
 ENC_S2
-Text Notes 600  250  0    50   ~ 0
+Text Notes 550  -100 0    50   ~ 0
 decoupling capacitory - smd C49678 
 Wire Wire Line
 	5450 8250 5000 8250
@@ -3120,4 +3120,71 @@ F 3 "~" H 2350 1400 50  0001 C CNN
 	1    2350 1400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Barrel_Jack BJ_LED5V
+U 1 1 5FC7DC4D
+P 1850 10150
+F 0 "BJ_LED5V" H 1907 10475 50  0000 C CNN
+F 1 "Barrel_Jack" H 1907 10384 50  0000 C CNN
+F 2 "" H 1900 10110 50  0001 C CNN
+F 3 "~" H 1900 10110 50  0001 C CNN
+	1    1850 10150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 11200 0    50   Input ~ 0
+RGB_MATRIX
+$Comp
+L LED:SK6812MINI D?
+U 1 1 5FC81A59
+P 4050 11100
+F 0 "D?" H 4394 11146 50  0000 L CNN
+F 1 "SK6812MINI" H 4394 11055 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4100 10800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4150 10725 50  0001 L TNN
+	1    4050 11100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4350 11100
+Text GLabel 2150 10050 2    50   Input ~ 0
+EXT_5V
+Text GLabel 2150 10250 2    50   Input ~ 0
+EXT_GND
+Text GLabel 1450 11300 0    50   Input ~ 0
+EXT_GND
+Text GLabel 2550 11300 3    50   Input ~ 0
+EXT_5V
+$Comp
+L LED:SK6812MINI D?
+U 1 1 5FCBCA87
+P 3050 11100
+F 0 "D?" H 3394 11146 50  0000 L CNN
+F 1 "SK6812MINI" H 3394 11055 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3100 10800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3150 10725 50  0001 L TNN
+	1    3050 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:74LVC1G17GV,125 IC?
+U 1 1 5FEEF888
+P 1450 11100
+F 0 "IC?" H 2000 11365 50  0000 C CNN
+F 1 "74LVC1G17GV,125" H 2000 11274 50  0000 C CNN
+F 2 "SOT95P275X110-5N" H 2400 11200 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf" H 2400 11100 50  0001 L CNN
+F 4 "74LVC1G17 - Single Schmitt trigger buffer@en-us" H 2400 11000 50  0001 L CNN "Description"
+F 5 "1.1" H 2400 10900 50  0001 L CNN "Height"
+F 6 "771-LVC1G17GV125" H 2400 10800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G17GV125?qs=me8TqzrmIYX3DxU5Fpa8sQ%3D%3D" H 2400 10700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nexperia" H 2400 10600 50  0001 L CNN "Manufacturer_Name"
+F 9 "74LVC1G17GV,125" H 2400 10500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1450 11100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 11100 2750 11100
+Wire Wire Line
+	2550 11200 2550 11300
+Wire Wire Line
+	3350 11100 3750 11100
 $EndSCHEMATC
