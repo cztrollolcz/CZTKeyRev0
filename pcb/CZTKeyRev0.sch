@@ -2914,8 +2914,6 @@ Text GLabel 1300 9750 0    50   Input ~ 0
 RGB_MATRIX
 Text GLabel 2000 8600 2    50   Input ~ 0
 EXT_5V
-Text GLabel 2350 8800 2    50   Input ~ 0
-EXT_GND
 Text GLabel 1300 9850 0    50   Input ~ 0
 EXT_GND
 Text GLabel 2550 9750 2    50   Input ~ 0
@@ -2943,8 +2941,6 @@ Wire Wire Line
 	5900 6800 5450 6800
 Wire Wire Line
 	5450 6800 5450 6850
-Text GLabel 2700 10050 0    50   Input ~ 0
-EXT_GND
 Wire Wire Line
 	4200 9650 4600 9650
 Wire Wire Line
@@ -4649,17 +4645,11 @@ Wire Wire Line
 	9900 13500 10850 13500
 Wire Wire Line
 	18200 12800 18200 11750
-Text GLabel 2700 10350 0    50   Input ~ 0
-EXT_GND
 Connection ~ 2900 10350
-Text GLabel 2700 12100 0    50   Input ~ 0
-EXT_GND
 Wire Wire Line
 	2700 12100 2900 12100
 Connection ~ 2900 12100
 Connection ~ 3900 10050
-Text GLabel 2700 12450 0    50   Input ~ 0
-EXT_GND
 Wire Wire Line
 	2700 12450 2900 12450
 Connection ~ 2900 12450
@@ -7279,4 +7269,14 @@ Wire Notes Line style solid
 	3650 1300 3650 2700
 Wire Notes Line style solid
 	900  1300 900  2700
+Text GLabel 2700 12450 0    50   Input ~ 0
+EXT_GND
+Text GLabel 2700 12100 0    50   Input ~ 0
+EXT_GND
+Text GLabel 2700 10350 0    50   Input ~ 0
+EXT_GND
+Text GLabel 2700 10050 0    50   Input ~ 0
+EXT_GND
+Text GLabel 2350 8800 2    50   Input ~ 0
+EXT_GND
 $EndSCHEMATC
