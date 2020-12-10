@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/cztrollolcz/Desktop/gerb/"))
+      (outputdirectory "C:/Users/cztrollolcz/Desktop/keeb develop/CZTKeyRev0/pcb/GerberPlate/"))
   )
 
   (net 0 "")
