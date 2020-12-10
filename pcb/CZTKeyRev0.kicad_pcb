@@ -15525,7 +15525,7 @@
 
   (gr_arc (start 330.2 20.6375) (end 332.581249 19.050001) (angle -112.6198649) (layer F.SilkS) (width 0.12))
   (gr_arc (start 169.8625 20.6375) (end 172.243749 19.050001) (angle -112.6198649) (layer F.SilkS) (width 0.12))
-  (gr_line (start 171.449999 19.049999) (end 327.81875 19.05) (layer F.SilkS) (width 0.12) (tstamp 5FCF59C8))
+  (gr_line (start 172.24375 19.049999) (end 327.81875 19.05) (layer F.SilkS) (width 0.12) (tstamp 5FCF59C8))
   (gr_line (start 334.9625 19.05) (end 332.58125 19.05) (layer F.SilkS) (width 0.12))
   (gr_line (start 334.9625 38.1) (end 334.9625 19.05) (layer F.SilkS) (width 0.12) (tstamp 5FCECF6C))
   (gr_poly (pts (xy 32.54375 38.1) (xy 32.54375 36.5125) (xy 34.925 38.1)) (layer F.SilkS) (width 0.1) (tstamp 5FCEC0C5))
